@@ -1,0 +1,102 @@
+/* comfortaa-700 - latin */
+@font-face {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/comfortaa-v30-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/comfortaa-v30-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* balsamiq-sans-regular - latin */
+@font-face {
+  font-family: "Balsamiq Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/balsamiq-sans-v3-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/balsamiq-sans-v3-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* righteous-regular - latin */
+@font-face {
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/righteous-v9-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/righteous-v9-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* merienda-one-regular - latin */
+@font-face {
+  font-family: "Merienda One";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/merienda-one-v11-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/merienda-one-v11-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* concert-one-regular - latin */
+@font-face {
+  font-family: "Concert One";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/concert-one-v12-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/concert-one-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.profile-photo {
+  border-radius: 50%;
+  width: 35%;
+  display: flex;
+  margin-top: 0%;
+  margin-right: 30%;
+  float: right;
+}
+
+/* Underline From Center */
+.hvr-underline-from-center2 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center2:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: #11cc9e;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center2:hover:before,
+.hvr-underline-from-center2:focus:before,
+.hvr-underline-from-center2:active:before {
+  left: 0;
+  right: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #1c2a36;
+  color: white;
+}
