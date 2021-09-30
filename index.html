@@ -78,7 +78,6 @@
       style="
         background-image: url(resources/bg.webp);
         height: 896px;
-        background-repeat: round;
         background-position: center center;
       "
     >
@@ -99,6 +98,7 @@
                 #80ffdb
               );
               background-clip: text;
+              -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
               line-height: 150%;
             "
@@ -120,6 +120,7 @@
                 #80ffdb
               );
               background-clip: text;
+              -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
             "
           >
@@ -271,12 +272,12 @@
           container-sm
           d-flex
           align-items-center
-          justify-content-center
+          justify-content-md-evenly
         "
       >
         <div
           class="col-md card bg-dark text-white hvr-grow"
-          style="margin-top: 5%"
+          style="margin-top: 5%; margin-right: 2%"
         >
           <img
             src="resources/script.png"
@@ -306,10 +307,9 @@
             >
           </div>
         </div>
-        <br />
         <div
           class="col-md card bg-dark text-white hvr-grow"
-          style="margin-top: 5%"
+          style="margin-top: 5%; margin-left: 2%"
         >
           <img
             src="resources/downloader.jpg"
@@ -343,12 +343,12 @@
           container-sm
           d-flex
           align-items-center
-          justify-content-center
+          justify-content-md-evenly
         "
       >
         <div
           class="col-md card bg-dark text-white hvr-grow"
-          style="margin-top: 3%"
+          style="margin-top: 3%; margin-right: 2%"
         >
           <img
             src="resources/player.webp"
@@ -371,10 +371,9 @@
             <a href="#" class="btn btn-primary stretched-link">Go to project</a>
           </div>
         </div>
-        <br />
         <div
           class="col-md card bg-dark text-white hvr-grow"
-          style="margin-top: 3%"
+          style="margin-top: 3%; margin-left: 2%"
         >
           <img
             src="resources/website.jpg"
@@ -503,10 +502,7 @@
           <div class="col text-end" style="margin-top: 5%">
             <h4>Get in Touch</h4>
             <p>
-              <a
-                href="mailto:shreyansh.singh2021@vitbhopal.ac.in"
-                target="_blank"
-                rel="noopener noreferrer"
+              <a href="mailto:shreyansh.singh2021@vitbhopal.ac.in"
                 ><img src="resources/email_white.svg" style="width: 7%;
                 margin-right: 3%;"" class="hvr-bob"></a
               >
