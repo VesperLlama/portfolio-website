@@ -82,7 +82,7 @@
       "
     >
       <div class="row d-flex align-items-center justify-content-center">
-        <div class="col hvr-float">
+        <div class="col-md hvr-float" style="width: max-content">
           <h1
             class="d-block text-center text-white"
             style="
@@ -127,7 +127,7 @@
             a Software Developer
           </h3>
         </div>
-        <div class="col">
+        <div class="col-md">
           <img
             class="profile-photo hvr-float img-thumbnail"
             src="resources/photo.png"
@@ -141,10 +141,14 @@
 
     <!-- About Me Start -->
 
-    <div id="about" class="container-md" style="padding-top: 4%">
+    <div
+      id="about"
+      class="container-md"
+      style="padding-top: 4%; padding-left: 5%; padding-right: 5%"
+    >
       <h1
         class="d-flex align-content-md-start text-white hvr-icon-forward"
-        style="font-family: Righteous"
+        style="font-family: Righteous; width: max-content"
       >
         About Me
         <i class="hvr-icon"
@@ -152,17 +156,19 @@
         /></i>
       </h1>
       <div
-        class="container-md d-flex align-items-center justify-content-center"
+        class="
+          container-md
+          row
+          d-flex
+          align-items-center
+          justify-content-center
+        "
       >
-        <p class="text-white text-start lh-lg" style="margin-right: 10%">
+        <p class="col-md text-white text-start lh-lg" style="margin-right: 10%">
           I am a Software Developer with loads of experience in Frontend Web
           Development and Desktop Application Development.
         </p>
-        <img
-          class="img-fluid float-end shadow img-thumbnail"
-          src="resources/code.jpg"
-          style="height: 250px"
-        />
+        <img class="col-md img-fluid float-end code" src="resources/code.jpg" />
       </div>
 
       <!-- Skills Cards start -->
@@ -252,11 +258,16 @@
     <div
       id="works"
       class="container-md"
-      style="padding-top: 4%; margin-top: 8%"
+      style="
+        padding-top: 4%;
+        margin-top: 8%;
+        padding-left: 5%;
+        padding-right: 5%;
+      "
     >
       <h1
         class="d-flex align-content-md-start text-white hvr-icon-forward"
-        style="font-family: Righteous"
+        style="font-family: Righteous; width: max-content"
       >
         My Works
         <i class="hvr-icon"
@@ -406,11 +417,16 @@
     <div
       id="contact"
       class="container-sm"
-      style="padding-top: 4%; margin-top: 8%"
+      style="
+        padding-top: 4%;
+        margin-top: 8%;
+        padding-left: 5%;
+        padding-right: 5%;
+      "
     >
       <h1
         class="d-flex align-content-md-start text-white hvr-icon-forward"
-        style="font-family: Righteous"
+        style="font-family: Righteous; width: max-content"
       >
         Contact Me
         <i class="hvr-icon"
@@ -418,8 +434,8 @@
         /></i>
       </h1>
       <div class="row">
-        <form class="col" style="margin-top: 5%">
-          <div class="mb-3 col">
+        <form class="col-md" style="margin-top: 5%">
+          <div class="mb-3 col-md">
             <label for="exampleInputEmail1" class="form-label text-white"
               >Email address</label
             >
@@ -431,7 +447,7 @@
               style="background-color: #1c2a36"
             />
           </div>
-          <div class="mb-3 col">
+          <div class="mb-3 col-md">
             <label for="exampleInputEmail1" class="form-label text-white"
               >Name</label
             >
@@ -459,11 +475,11 @@
           <button type="submit" class="btn btn-success">Submit</button>
         </form>
 
-        <div class="col">
+        <div class="col-md">
           <div class="row">
-            <img class="col-2 float-end" src=resources/email1.svg style="height:
-            50px; margin-top: 20%; margin-left: 20%;">
-            <p class="text-white col" style="margin-top: 20%">
+            <img class="col-md-2 float-end" src=resources/email1.svg
+            style="height: 50px; margin-top: 20%; margin-left: 20%;">
+            <p class="text-white col-md" style="margin-top: 20%">
               Email me at -<br />
               <a
                 class="hvr-underline-from-center2"
@@ -474,9 +490,9 @@
             </p>
           </div>
           <div class="row">
-            <img class="col-2 float-end" src=resources/phone.svg style="height:
-            50px; margin-top: 10%; margin-left: 20%;">
-            <p class="text-white col" style="margin-top: 10%">
+            <img class="col-md-2 float-end" src=resources/phone.svg
+            style="height: 50px; margin-top: 10%; margin-left: 20%;">
+            <p class="text-white col-md" style="margin-top: 10%">
               Call me -<br />
               <a
                 class="hvr-underline-from-center2"
@@ -493,13 +509,15 @@
     <!-- Contact Me end -->
     <!-- Footer start -->
 
-    <footer style="margin-top: 10%; height: auto">
+    <footer
+      style="margin-top: 10%; height: auto; padding-left: 0%; padding-right: 0%"
+    >
       <div class="container-md">
         <div class="row d-flex align-items-center justify-content-center">
-          <div class="col text-start" style="margin-top: 5%">
+          <div class="col-md text-start" style="margin-top: 5%">
             <h1 style="font-family: Righteous">Shreyansh Singh</h1>
           </div>
-          <div class="col text-end" style="margin-top: 5%">
+          <div class="col-md text-end" style="margin-top: 5%">
             <h4>Get in Touch</h4>
             <p>
               <a href="mailto:shreyansh.singh2021@vitbhopal.ac.in"
@@ -525,6 +543,6 @@
 
     <!-- Footer end -->
 
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
