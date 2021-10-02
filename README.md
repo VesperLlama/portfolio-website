@@ -7,6 +7,21 @@ Website created for the competition organised by the Bit-by-Bit Community of VIT
 **Name -** Shreyansh Singh  
 **Registration No. -** 21BCE10379
 
+# Screenshots
+
+### Home
+
+<img src="screenshots/Screenshot_1.png" style="max-width: 750px; height: auto">
+
+### About Me
+<img src="screenshots/Screenshot_2.png" style="max-width: 750px; height: auto">
+
+### My Works
+<img src="screenshots/Screenshot_3.png" style="max-width: 750px; height: auto">
+
+### Contact Me
+<img src="screenshots/Screenshot_4.png" style="max-width: 750px; height: auto">
+
 # Credits
 
 - [Bootstrap.](https://getbootstrap.com/)
