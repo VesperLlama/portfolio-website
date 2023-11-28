@@ -166,13 +166,7 @@
         /></i>
       </h1>
       <div
-        class="
-          container-md
-          row
-          d-flex
-          align-items-center
-          justify-content-center
-        "
+        class="container-md row d-flex align-items-center justify-content-center"
       >
         <p class="col-md text-white text-start lh-lg me-md-2">
           I am a Software Developer with loads of experience in Frontend Web
@@ -290,13 +284,7 @@
       <!-- Works Row 1 -->
 
       <div
-        class="
-          row
-          container-sm
-          d-flex
-          align-items-center
-          justify-content-md-evenly
-        "
+        class="row container-sm d-flex align-items-center justify-content-md-evenly"
       >
         <div
           class="col-md card bg-dark text-white hvr-grow"
@@ -335,7 +323,7 @@
           style="margin-top: 5%; margin-left: 2%"
         >
           <img
-            src="resources/downloader.jpg"
+            src="resources/movie.jpg"
             class="card-img"
             style="filter: blur(5px); height: 25rem; object-fit: contain"
           />
@@ -344,37 +332,37 @@
               class="card-title"
               style="font-family: 'Concert One'; color: #81b3ff"
             >
-              Download Manager
+              Movies and Songs recommendation Website
             </h4>
             <p
               class="card-text"
               style="font-family: Comfortaa; font-weight: 700"
             >
-              A program to download files from the Internet<br />
-              using Java
+              A website which recommends Movies and Songs<br />
+              based on user input
             </p>
-            <a data-bs-toggle="modal" data-bs-target="#workModal" class="btn btn-primary stretched-link">Go to project</a>
+            <a
+              href="https://github.com/VesperLlama/Project-Exhibition-1"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary stretched-link"
+              >Go to project</a
+            >
           </div>
         </div>
       </div>
-      
+
       <!-- Works Row 2 -->
 
       <div
-        class="
-          row
-          container-sm
-          d-flex
-          align-items-center
-          justify-content-md-evenly
-        "
+        class="row container-sm d-flex align-items-center justify-content-md-evenly"
       >
         <div
           class="col-md card bg-dark text-white hvr-grow"
           style="margin-top: 3%; margin-right: 2%"
         >
           <img
-            src="resources/player.webp"
+            src="resources/aio.png"
             class="card-img"
             style="filter: blur(5px); height: 25rem; object-fit: contain"
           />
@@ -383,15 +371,22 @@
               class="card-title"
               style="font-family: 'Concert One'; color: #81b3ff"
             >
-              Video Player
+              AIO Help App
             </h4>
             <p
               class="card-text"
               style="font-family: Comfortaa; font-weight: 700"
             >
-              A simple video player made using Java
+              An Android app to hire workers like <br />
+              Carpenters, Plumbers, etc.
             </p>
-            <a data-bs-toggle="modal" data-bs-target="#workModal" class="btn btn-primary stretched-link">Go to project</a>
+            <a
+              href="https://github.com/VesperLlama/Project-Exhibition-2"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary stretched-link"
+              >Go to project</a
+            >
           </div>
         </div>
         <div
@@ -399,7 +394,7 @@
           style="margin-top: 3%; margin-left: 2%"
         >
           <img
-            src="resources/website.jpg"
+            src="resources/ovs.png"
             class="card-img mx-auto"
             style="filter: blur(5px); height: 25rem; object-fit: contain"
           />
@@ -408,15 +403,22 @@
               class="card-title"
               style="font-family: 'Concert One'; color: #81b3ff"
             >
-              E-Commerce Website
+              Online Voting System
             </h4>
             <p
               class="card-text"
               style="font-family: Comfortaa; font-weight: 700"
             >
-              A concept E-Commerce website made using HTML and CSS<br />
+              A concept website for an Online Voting System<br />
+              for elections
             </p>
-            <a data-bs-toggle="modal" data-bs-target="#workModal" class="btn btn-primary stretched-link">Go to project</a>
+            <a
+              href="https://github.com/VesperLlama/OVS-frontend"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary stretched-link"
+              >Go to project</a
+            >
           </div>
         </div>
       </div>
@@ -424,161 +426,137 @@
 
     <!-- My Works end -->
 
-    <!-- Modal -->
+
+    <!-- Contact Me start -->
+
     <div
-    class="modal fade"
-    id="workModal"
-    tabindex="-1"
-    aria-labelledby="exampleModalLabel"
-    aria-hidden="true"
+      id="contact"
+      class="container-sm"
+      style="
+        padding-top: 4%;
+        margin-top: 8%;
+        padding-left: 5%;
+        padding-right: 5%;
+      "
     >
-    <div class="modal-dialog modal-dialog-centered"">
-      <div class="modal-content" style="background-color: #1c2a36;">
-        <div class="modal-body text-white">This is a dummy project</div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-danger"
-              data-bs-dismiss="modal"
+      <h1
+        class="d-flex align-content-md-start text-white hvr-icon-forward"
+        style="font-family: Righteous; width: max-content"
+      >
+        Contact Me
+        <i class="hvr-icon"
+          ><img src="resources/caret-right-fill.svg" style="height: 60%"
+        /></i>
+      </h1>
+      <div class="row">
+        <form class="col-md" style="margin-top: 5%">
+          <div class="mb-3 col-md">
+            <label for="exampleInputEmail1" class="form-label text-white"
+              >Email address</label
             >
-              Close
-            </button>
+            <input
+              type="email"
+              class="form-control text-white"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              style="background-color: #1c2a36"
+            />
+          </div>
+          <div class="mb-3 col-md">
+            <label for="exampleInputEmail1" class="form-label text-white"
+              >Name</label
+            >
+            <input
+              type="text"
+              class="form-control text-white"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              style="background-color: #1c2a36"
+            />
+          </div>
+          <div class="mb-3">
+            <label
+              for="exampleFormControlTextarea1"
+              class="form-label text-white"
+              >Message</label
+            >
+            <textarea
+              class="form-control text-white"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              style="background-color: #1c2a36"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+
+        <div class="col-md">
+          <div class="row">
+            <img class="col-md-2 float-end" src=resources/email1.svg
+            style="height: 50px; margin-top: 20%; margin-left: 20%;">
+            <p class="text-white col-md" style="margin-top: 20%">
+              Email me at -<br />
+              <a
+                class="hvr-underline-from-center2"
+                style="text-decoration: none; color: #11cc9e"
+                href="mailto:shreyansh.singh2021@vitbhopal.ac.in"
+                >shreyansh.singh2021@vitbhopal.ac.in</a
+              >
+            </p>
+          </div>
+          <div class="row">
+            <img class="col-md-2 float-end" src=resources/phone.svg
+            style="height: 50px; margin-top: 10%; margin-left: 20%;">
+            <p class="text-white col-md" style="margin-top: 10%">
+              Call me -<br />
+              <a
+                class="hvr-underline-from-center2"
+                style="text-decoration: none; color: #11cc9e"
+                href="tel:1234567890"
+                >+91 1234567890</a
+              >
+            </p>
           </div>
         </div>
       </div>
     </div>
-  <!-- Modal end -->
 
-  <!-- Contact Me start -->
+    <!-- Contact Me end -->
+    <!-- Footer start -->
 
-  <div
-    id="contact"
-    class="container-sm"
-    style="
-      padding-top: 4%;
-      margin-top: 8%;
-      padding-left: 5%;
-      padding-right: 5%;
-    "
-  >
-    <h1
-      class="d-flex align-content-md-start text-white hvr-icon-forward"
-      style="font-family: Righteous; width: max-content"
+    <footer
+      style="margin-top: 10%; height: auto; padding-left: 0%; padding-right: 0%"
     >
-      Contact Me
-      <i class="hvr-icon"
-        ><img src="resources/caret-right-fill.svg" style="height: 60%"
-      /></i>
-    </h1>
-    <div class="row">
-      <form class="col-md" style="margin-top: 5%">
-        <div class="mb-3 col-md">
-          <label for="exampleInputEmail1" class="form-label text-white"
-            >Email address</label
-          >
-          <input
-            type="email"
-            class="form-control text-white"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-            style="background-color: #1c2a36"
-          />
+      <div class="container-md">
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-md text-start" style="margin-top: 5%">
+            <h1 style="font-family: Righteous">Shreyansh Singh</h1>
+          </div>
+          <div class="col-md text-end" style="margin-top: 5%">
+            <h4>Get in Touch</h4>
+            <p>
+              <a href="mailto:shreyansh.singh2021@vitbhopal.ac.in"
+                ><img src="resources/email_white.svg" style="width: 7%;
+                margin-right: 3%;"" class="hvr-bob"></a
+              >
+              <a
+                href="https://github.com/eredrolo"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  src="resources/github.svg"
+                  style="width: 6%; margin-right: 2%"
+                  class="hvr-bob"
+              /></a>
+            </p>
+          </div>
         </div>
-        <div class="mb-3 col-md">
-          <label for="exampleInputEmail1" class="form-label text-white"
-            >Name</label
-          >
-          <input
-            type="text"
-            class="form-control text-white"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-            style="background-color: #1c2a36"
-          />
-        </div>
-        <div class="mb-3">
-          <label
-            for="exampleFormControlTextarea1"
-            class="form-label text-white"
-            >Message</label
-          >
-          <textarea
-            class="form-control text-white"
-            id="exampleFormControlTextarea1"
-            rows="3"
-            style="background-color: #1c2a36"
-          ></textarea>
-        </div>
-        <button type="submit" class="btn btn-success">Submit</button>
-      </form>
-
-      <div class="col-md">
-        <div class="row">
-          <img class="col-md-2 float-end" src=resources/email1.svg
-          style="height: 50px; margin-top: 20%; margin-left: 20%;">
-          <p class="text-white col-md" style="margin-top: 20%">
-            Email me at -<br />
-            <a
-              class="hvr-underline-from-center2"
-              style="text-decoration: none; color: #11cc9e"
-              href="mailto:shreyansh.singh2021@vitbhopal.ac.in"
-              >shreyansh.singh2021@vitbhopal.ac.in</a
-            >
-          </p>
-        </div>
-        <div class="row">
-          <img class="col-md-2 float-end" src=resources/phone.svg
-          style="height: 50px; margin-top: 10%; margin-left: 20%;">
-          <p class="text-white col-md" style="margin-top: 10%">
-            Call me -<br />
-            <a
-              class="hvr-underline-from-center2"
-              style="text-decoration: none; color: #11cc9e"
-              href="tel:1234567890"
-              >+91 1234567890</a
-            >
-          </p>
-        </div>
+        <br />
+        <br />
       </div>
-    </div>
-  </div>
+    </footer>
 
-  <!-- Contact Me end -->
-  <!-- Footer start -->
-
-  <footer
-    style="margin-top: 10%; height: auto; padding-left: 0%; padding-right: 0%"
-  >
-    <div class="container-md">
-      <div class="row d-flex align-items-center justify-content-center">
-        <div class="col-md text-start" style="margin-top: 5%">
-          <h1 style="font-family: Righteous">Shreyansh Singh</h1>
-        </div>
-        <div class="col-md text-end" style="margin-top: 5%">
-          <h4>Get in Touch</h4>
-          <p>
-            <a href="mailto:shreyansh.singh2021@vitbhopal.ac.in"
-              ><img src="resources/email_white.svg" style="width: 7%;
-              margin-right: 3%;"" class="hvr-bob"></a
-            >
-            <a
-              href="https://github.com/eredrolo"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><img
-                src="resources/github.svg"
-                style="width: 6%; margin-right: 2%"
-                class="hvr-bob"
-            /></a>
-          </p>
-        </div>
-      </div>
-      <br />
-      <br />
-    </div>
-  </footer>
-
-  <!-- Footer end -->
+    <!-- Footer end -->
 
     <script src="js/bootstrap.min.js"></script>
   </body>
